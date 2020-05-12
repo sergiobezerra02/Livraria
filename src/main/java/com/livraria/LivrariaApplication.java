@@ -164,6 +164,8 @@ public class LivrariaApplication implements CommandLineRunner {
 		
 		direitoAutoralRepository.saveAll(Arrays.asList(direitoAutoral1,direitoAutoral2,direitoAutoral3,direitoAutoral4));
 		
+		System.out.println("Testando");
+		
 	}
 
 }
